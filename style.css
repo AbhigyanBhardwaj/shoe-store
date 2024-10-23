@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.container
+{
+    width: 80%;
+    margin :auto ;
+
+}
+.navbar
+{
+    width: 100%;
+    padding: 20px 0;
+    background-color:rgb(169,169,169)
+
+}
+:root{
+    --drop-shadow:0px 3px 5px 2px rgba(0, 0, 0, 0.171);
+    --hover-shadow:0px 5px 8px 2px rgba(0, 0, 0, 0.171);
+    --main-color:#f64d4a;
+  }
+  .container h2{
+    font-weight: 500;
+    font-size: ;
+    cursor: pointer;
+    color: #301918b6;
+  }
+  .navbar .container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+ .nav{
+    justify-self: flex-end;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .nav a{
+    margin-right: 70px;
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+ }
+
+ .nav .cart{
+  margin-left: 70px;
+  border: 2px solid black;
+  padding: 5px 20px;
+  border-radius: 4px;
+
+ }
+
+ .wolf{
+    width: 100%;
+   
+ }
+.lucifer{
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+ .lucifer{
+    animation: fadeIn 0.8s ease-in-out;
+ }
+ .lucifer h2{
+    color: rgb(63, 63, 154);
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
+ .lucifer h1{
+    font-size: 50px;
+    margin: 20px 0;
+    color: black;
+ }
+
+ .lucifer p{
+    font-size: 20px;
+    color: #0c4e51b6;
+ }
+ .btn{
+    background: var(--main-color);
+    padding: 15px 25px;
+    margin: 10px 0px;
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    border-radius: 2px;
+    box-shadow: var(--drop-shadow);
+
+ }
+
+
+ .lucifer img{
+    width: 100%;
+ }
+
+
+
+ 
